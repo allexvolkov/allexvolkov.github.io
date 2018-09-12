@@ -1,50 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Резюме</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div>
-            <header>
-                <h1>Александр Волков</h1>
-                <h3>Веб-разработчик</h3>
-                <p>
-                    <a href="allexvolkov@gmail.com">allexvolkov@gmail.com</a>
-                    <a href="allexvolkov.github.io">allexvolkov.github.io</a>
-                </p>
-            </header>
-        </div>
-        <div>
-            <main>
-                <p>Я увлекаюсь веб-дизайном. Начал с мини-сайтов для себя и друзей.</p>
-                <h2>Опыт работы</h2>
-                <hr/>
-                <ul>
-                    <li>15 лет в общепите</li>
-                    <li>Создание веб-сайтов</li>
-                    <li>Поддержка сайтов</li>
-                </ul>
-                <h2>Образование</h2>
-                <hr/>
-                <p>Хекслет<br>
-                Курсы по програмированию, JS Frontend, 2018
-                </p>
-                <h2>Другие навыки и увлечения</h2>
-                <hr/>
-                <ul>
-                    <li>Любительская игра в StarCraft</li>
-                    <li>Пивоварение</li>
-                    <li>Сноуборд, мото-вело спорт</li>
-                </ul>
 
-            </main>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Резюме Александр Волков</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Александр Волков</h1>
+      <h3>Веб-разработчик</h3>
+      <p>
+        <a href="mailto:allexvolkov@gmail.com">allexvolkov@gmail.com</a>,
+        <a href="https://github.com/allexvolkov">github.com/allexvolkov</a>
+      </p>
+    </div>
+
+    <div id="main">
+      <p>
+        Я увлекаюсь веб-дизайном. Начал с мини-сайтов для себя и друзей.
+      </p>
+
+      <p>
+        Готов к удаленной работе.
+      </p>
+
+      <div class="main_section">
+        <h2>Опыт работы</h2>
+
+        <div class="main_section_item">
+          <h3>Создание веб сайтов</h3>
+          <p>Создание веб сайтов</p>
+          <ul>
+            <li>Верстка макетов</li>
+            <li>Поддержка сайта</li>
+          </ul>
         </div>
-        <div>
-            <footer>
-                <p>Александр Волков <br> г.Томск, Россия +7 962 777 07 05, allexvolkov@gmail.com</p>
-            </footer>
+
+        <div class="main_section_item">
+          <h3>Создание веб сайтов</h3>
+          <p>Веб-дизайн, <i>сентябрь 2018</i></p>
+          <ul>
+            <li>Верстка макетов</li>
+            <li>Разработка тем для Wordpress</li>
+            <li>Поддержка сайта</li>
+          </ul>
         </div>
-    </body>
+      </div>
+
+      <div class="main_section">
+        <h2>Образование</h2>
+
+        <div class="main_section_item">
+          <h3>Хекслет</h3>
+          <p>Курсы по программированию</p>
+        </div>
+
+        <div class="main_section_item">
+          <h3>Хекслет</h3>
+          <p>Курсы по программированию, JS Frontend</p>
+        </div>
+      </div>
+
+      <div class="main_section">
+        <h2>Другие навыки и увлечения</h2>
+
+        <div class="main_section_item">
+          <ul>
+            <li>Любительская игра в StarCraft</li>
+            <li>Кулинария, пивовариение</li>
+            <li>Сноуборд, вело-мото спорт</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <strong>Александр Волков</strong>
+      <br/>
+     г.Томск, Россия +7 962 777 07 05, <a href="mailto:allexvolkov@gmail.com">allexvolkov@gmail.com</a>
+    </div>
+
+  </body>
 </html>
