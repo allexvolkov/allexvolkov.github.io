@@ -1,1 +1,9 @@
-
+.info {
+color: green;
+font-style: italic;
+}
+.name {
+background-color: green;
+color: white;
+display: inline;
+}
