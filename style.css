@@ -1,9 +1,27 @@
-.info {
-color: green;
-font-style: italic;
+p {
+margin-bottom: 12px;
 }
-.name {
-background-color: green;
-color: white;
-display: inline;
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    border-bottom-style: 1px, grey;
+    margin-bottom: 8px;
+}
+h3 {
+margin-top: 64px;
+text-align: center;
+}
+}
+header {
+    margin-bottom: 32px;
+    text-align: center;
+}
+footer { 
+    text-align: center;
+    margin-top: 64px;
 }
